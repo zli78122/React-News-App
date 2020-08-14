@@ -1,0 +1,7 @@
+html,body{height: 100%;}
+html,body,h1,h2,h3,h4,h5,h6,p,ul,li{margin: 0px;padding: 0px;font: 16px Georgia;}
+*{ margin: 0; padding: 0;}
+li{list-style: none;}
+a{text-decoration: none;display: block;}
+.clearfix:after{ content: ""; display: block; clear: both; }
+.clearfix{ zoom:1; }

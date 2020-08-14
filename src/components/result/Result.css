@@ -1,0 +1,52 @@
+.results_title {
+    font-size: 30px;
+    color: rgb(70, 50, 57);
+}
+.results_container {
+    position: relative;
+}
+
+.result_news {
+    padding: 30px 25px 45px;
+    margin-bottom: 15px;
+    background-color: white;
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 5px;
+    box-shadow: 0 6px 10px 3px rgb(210, 210, 210);
+    box-sizing: border-box;
+}
+.result_card_title {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.result_card_share {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+.result_card_img {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(233, 233, 233);
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+.result_card_other {
+    overflow: hidden;
+}
+.result_card_other .date {
+    float: left;
+    font-size: 18px;
+    font-style: italic;
+}
+.result_card_other .category {
+    float: right;
+    font-size: 18px;
+}
+#result_section {
+    font-size: 14px;
+}

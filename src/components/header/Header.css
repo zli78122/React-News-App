@@ -1,0 +1,96 @@
+/* PC */
+@media (min-width: 992px) {
+    .header_nav {
+        height: 75px;
+    }
+
+    .autocomplete {
+        width: 330px;
+    }
+
+    .ny_times {
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+    .guardian {
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+}
+
+/* mobile */
+@media (max-width: 992px) {
+    .autocomplete {
+        width: 82%;
+    }
+
+    .bookmark {
+        padding: 0.5rem 0.7rem;
+        box-sizing: content-box;
+    }
+
+    .ny_times, .guardian, .switch_container {
+        padding: 0.5rem 0.7rem;
+    }
+
+    .nav-link {
+        padding-top: .6rem;
+        padding-bottom: .6rem;
+    }
+
+    #nav_link_sports {
+        padding-bottom: .9rem;
+    }
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.7rem;
+    padding-left: 0.7rem;
+}
+
+.nav-link {
+    font-size: 18px;
+}
+
+.header_nav {
+    background-image: linear-gradient(90deg, rgb(23, 35, 62) 0%, rgb(69, 97, 170) 100%);
+    margin-bottom: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 19px;
+    color: rgb(129, 144, 173);
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(225, 235, 252);
+    outline: none;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(225, 235, 252);
+}
+
+.autocomplete {
+    font-size: 19px;
+}
+
+.bookmark {
+    color: white;
+    height: 1.5em;
+    width: 1.5em;
+    cursor: pointer;
+}
+
+.news_name {
+    color: rgb(219, 231, 248);
+    font-size: 20px;
+}
+
+.target_section {
+    color: rgb(225, 235, 252) !important;
+}
+
+.switch_container {
+    height: 28px;
+    width: 56px;
+}

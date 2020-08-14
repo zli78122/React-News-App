@@ -1,0 +1,142 @@
+/* PC */
+@media (min-width: 992px) {
+    .article_share_button {
+        left: 84%;
+    }
+    .toast_container {
+        width: 375px;
+    }
+}
+/* mobile */
+@media (max-width: 992px) {
+    .article_share_button {
+        left: 51%;
+    }
+    .toast_container {
+        width: 100%;
+    }
+}
+
+.loading {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    height: 85px;
+    width: 100px;
+    text-align: center;
+}
+
+#loading_icon {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#loading_word {
+    font-size: 28px;
+}
+
+.article_show {
+    margin-left: 17px;
+    margin-right: 17px;
+    border-radius: 5px;
+    border: 1px solid rgb(227, 227, 227);
+    box-shadow: 0 6px 10px 3px rgb(210, 210, 210);
+    padding: 18px 23px 33px;
+    margin-bottom: 65px;
+}
+.article_title {
+    font-size: 38px;
+    font-style: italic;
+    line-height: 1.2;
+    margin-bottom: 8px;
+}
+.article_date {
+    font-style: italic;
+    font-size: 20px;
+    padding-left: 15px;
+}
+.article_date_share_bookmark {
+    position: relative;
+    margin-bottom: 15px;
+}
+.article_img {
+    width: 100%;
+}
+.article_desc {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.article_arrow_container {
+    height: 35px;
+}
+.article_arrow {
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    float: right;
+}
+
+.article_share_button {
+    position: absolute;
+}
+.article_bookmark_container {
+    position: absolute;
+    right: 2%;
+}
+.article_bookmark {
+    cursor: pointer;
+    position: absolute;
+    right: 2%;
+    color: rgb(200, 42, 60);
+    height: 1.9em;
+    width: 1.9em;
+}
+
+#second_paragraph {
+    display: none;
+}
+
+.article_tooltip {
+    height: 34px;
+    width: 34px;
+    display: inline-block;
+}
+
+.toast_body {
+    color: black;
+    font-size: 18px;
+}
+
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+    50% {
+        opacity: 1;
+    }
+}
+.zoomIn {
+    animation-name: zoomIn;
+}
+@keyframes zoomOut {
+    from {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+    to {
+        opacity: 0;
+    }
+}
+.zoomOut {
+    animation-name: zoomOut;
+}
+.animate {
+    animation-duration: 800ms;
+}

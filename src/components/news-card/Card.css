@@ -1,0 +1,47 @@
+/* PC */
+@media (min-width: 992px) {
+    .modal-dialog {
+        max-width: 580px;
+    }
+}
+
+.modal-title {
+    line-height: 1.2;
+}
+
+.modal-header {
+    padding: 20px 20px 27px 20px;
+}
+
+.modal-body {
+    height: 152px;
+}
+
+.icon {
+    border-radius: 50%;
+}
+
+.share_via {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.share_button {
+    text-align: center;
+}
+
+button:focus {
+    outline: none;
+}
+
+.news_card_link {
+    text-decoration: none;
+    color: black;
+}
+
+.news_card_link:hover {
+    text-decoration: none;
+    color: black;
+}
