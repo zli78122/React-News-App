@@ -5,11 +5,11 @@
 *Video (Mobile): https://www.youtube.com/watch?v=QawrK4MdvMQ&t=1s*  
 
 ## Tech Stacks
-client: HTML, CSS, React  
-server: Node.js  
-cloud: GCP  
-RWD(Responsive Web Design): React-Bootstrap  
-API: Guardian News API, New York Times API, Microsoft Azure Bing Autosuggest API  
+**Client**: HTML, CSS, React  
+**Server**: Node.js  
+**Cloud**: GCP  
+**RWD(Responsive Web Design)**: React-Bootstrap  
+**API**: Guardian News API, New York Times API, Microsoft Azure Bing Autosuggest API  
 AJAX, JSON  
 
 React:  
@@ -35,11 +35,11 @@ Node.js
 Express  
 
 ## Functionalities
-	1. search by section
-	2. search by keyword & Auto Suggestion
-	3. bookmark
-	4. article source switch between Guardian News and New York Times
-	5. share article to Facebook, Twitter, and Email
-	6. article details
-	7. comment
-	8. adapt to both PC and mobile
+* search by section
+*  search by keyword & Auto Suggestion
+* bookmark
+* article source switch between Guardian News and New York Times
+* share article to Facebook, Twitter, and Email
+* article details
+* comment
+* adapt to both PC and mobile
