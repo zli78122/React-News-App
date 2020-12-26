@@ -1,4 +1,6 @@
-# React-News-App
-News App Based on React
+# React News App
 
-link: https://node-zli78122.appspot.com
+*Website:        https://node-zli78122.appspot.com*  
+*Video (Web):    https://www.youtube.com/watch?v=IowBaIi6fjE&t=94s*  
+*Video (Mobile): https://www.youtube.com/watch?v=QawrK4MdvMQ&t=1s*  
+
