@@ -36,11 +36,11 @@ AJAX, JSON
 * Microsoft Azure Bing Autosuggest API  
 
 Axios  
-Pubsub-js  
+pubsub.js  
 Media Queries  
-HTML5 Local Storage  
+HTML5 localStorage  
 Node.js  
-Express  
+Express.js  
 
 ## Functionalities
 * search by section
