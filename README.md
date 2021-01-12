@@ -8,7 +8,7 @@
 * Used a combination of **ES6**, **React-Bootstrap**, **React.js**, **pubsub.js** on client side and **Node.js**, **Express.js** on server side to develop a news application based on **Responsive Web Design**, which can adapt to PC and mobile devices. The application is deployed to **Google Cloud**.
 * Created multiple **code-reusable** components, like comment, notification, news card, and built scalable server-side **RESTful** APIs.
 * Implemented real-time update of news data fetched from Guardian News API and New York Times API using **Axios**.
-* Developed **auto-completion** when searching by keyword using **Azure Bing Autosuggest API** and throttled function calling to lower server load.
+* Developed **auto-completion** when searching by keyword using **Azure Bing Autosuggest API** and throttled function calls to reduce server load.
 * Utilized HTML5 **localStorage** as web cache to support adding articles to and removing articles from bookmark.
 
 ## Tech Stacks
