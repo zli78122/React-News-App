@@ -39,9 +39,6 @@ Axios
 Pubsub-js  
 Media Queries  
 HTML5 Local Storage  
-Guardian News API  
-New York Times API  
-Microsoft Azure Bing Autosuggest API  
 Node.js  
 Express  
 
